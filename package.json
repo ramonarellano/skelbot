@@ -45,7 +45,8 @@
         "imap":"0.8.13",
         "request":"2.42.0",
         "colors":"0.6.2",
-	"xmlhttprequest":"1.6.0"
+	"xmlhttprequest":"1.6.0",
+	"node-red-contrib-async":"0.0.4"
     },
     "devDependencies": {
         "grunt": "0.4.5",
