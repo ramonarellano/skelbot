@@ -55,7 +55,7 @@ module.exports = {
 
     // By default, the Node-RED UI is available at http://localhost:1880/
     // The following property can be used to specifiy a different root path.
-    //httpAdminRoot: '/admin',
+    httpAdminRoot: '/admin',
 
     // You can protect the user interface with a userid and password by using the following property.
     // The password must be an md5 hash  eg.. 5f4dcc3b5aa765d61d8327deb882cf99 ('password')
@@ -74,7 +74,7 @@ module.exports = {
     // When httpAdminRoot is used to move the UI to a different root path, the
     // following property can be used to identify a directory of static content
     // that should be served at http://localhost:1880/.
-    //httpStatic: '/home/nol/node-red-dashboard/',
+    httpStatic: '/home/pi/skelbot/www/',
 
     // To password protect the static content, the following property can be used.
     // The password must be an md5 hash  eg.. 5f4dcc3b5aa765d61d8327deb882cf99 ('password')
