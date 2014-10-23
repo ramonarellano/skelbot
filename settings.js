@@ -127,7 +127,8 @@ module.exports = {
         // arduino:require('duino')
 	fs:require('fs'),
         timers:require('timers'),
-	_:require('underscore')
+	_:require('underscore'),
+	async:require('async')
     }
 
 }
